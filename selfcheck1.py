@@ -6,5 +6,5 @@ print(c)
 t = a
 a = np.arange(1,20,2).reshape(5,2)
 print(a)
-b = np.reshape(np.arange(1, 21, 2), (5, 2), order='F')
+b = np.reshape(np.arange(1, 21, 2), (5, 2), order='T')
 print(b)
